@@ -5,13 +5,13 @@ Type "help", "copyright", "credits" or "license()" for more information.
 
 Question 1
 
-Move disc 1 from source A to destination C
-Move disc 2 from source A to destination C
-Move disc 1 from source B to destination A
-Move disc 3 from source A to destination C
-Move disc 1 from source B to destination A
-Move disc 2 from source B to destination A
-Move disc 1 from source C to destination B
+Move Disk 1 from A to C
+Move Disk 2 from A to B
+Move Disk 1 from C to B
+Move Disk 3 from A to C
+Move Disk 1 from B to A
+Move Disk 2 from B to C
+Move Disk 1 from A to C
 
 =========== RESTART: /Users/vanshulgoyal/Python/Assignment4.py/Q2.py ===========
 
