@@ -1,14 +1,15 @@
 #Question1
 print('Question 1\n')
-def TowerofHanoi(n,source,auxillary,destination):
-    if n==1:
-        print("Move disc 1 from source",source,"to destination",destination)
+def towerofhanoi(n, source, destination, aux):
+    if n == 0:
         return
-    TowerofHanoi(n-1,source,auxillary,destination)
-    print("Move disc",n,"from source",source,"to destination",destination)
-    TowerofHanoi(n-1,auxillary,destination,source)
+    
+    towerofhanoi(n-1, source, aux, destination)
+    print(f"Move Disk {n} from {source} to {destination}")
+    towerofhanoi(n-1, aux, destination, source)
 
-TowerofHanoi(3,'A','B','C')
+#calling TOH funtion 
+towerofhanoi(3, 'A', 'C', 'B')
 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------
